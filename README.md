@@ -8,7 +8,7 @@ Se ofrece una lista de estudiantes (nombre, apellidos, edad, universidad y facul
 
 ## Uso de IA
 
-Usé chatGPT para generar el css completo una vez ya finalizado el proyecto. También lo usé en el esquema de Zod para crear una función que comprobase si el nombre o apellidos contenían letras únicamente. La base de json server fue dada por ChatGPT también; le pedí 3 entidades con 6 propiedades relacionadas con universidades. ME sugirió agrupar los fetch en un archivo peticiones.js, para reutilziar código. Por último, para agilizar la creación del form, ChatGPT me rellenó los inputs y selects con características: label anidado en cada campo, autocomplete en nombre y apellidos, y aria-invalid y aria-describedby en todos los campos para enlazarlos con su mensaje de error.
+Usé chatGPT para generar el css completo una vez ya finalizado el proyecto. También lo usé en el esquema de Zod para crear una función que comprobase si el nombre o apellidos contenían letras únicamente. La base de json server fue dada por ChatGPT también; le pedí 3 entidades con 6 propiedades relacionadas con universidades. Me sugirió agrupar los fetch en un archivo peticiones.js, para reutilziar código. Además, para agilizar la creación del form, ChatGPT me rellenó los inputs y selects con características: label anidado en cada campo, autocomplete en nombre y apellidos, y aria-invalid y aria-describedby en todos los campos para enlazarlos con su mensaje de error. Por último, me ayudó con el tema de env y env.example, indicando paso a paso cómo debo estructurarlos.
 
 ## Autopsia
 
