@@ -1,4 +1,4 @@
-import './App.css'
+
 import FormularioEstudiante from "./componentes/FormularioEstudiante.jsx";
 import ListaEstudiantes from "./componentes/ListaEstudiantes.jsx";
 
