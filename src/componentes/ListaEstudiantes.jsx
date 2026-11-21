@@ -23,9 +23,9 @@ function ListaEstudiantes() {
   }
 
   const nombreUniversidad = (id) =>
-    universidades.data?.find((uni) => uni.id === id)?.nombre ?? "Universidad desconocida";
+    universidades.data?.find((uni) => Number(uni.id) === id)?.nombre ?? "Universidad desconocida";
   const nombreFacultad = (id) =>
-    facultades.data?.find((fac) => fac.id === id)?.nombre ?? "Facultad desconocida";
+    facultades.data?.find((fac) => Number(fac.id) === id)?.nombre ?? "Facultad desconocida";
 
   return (
     <>
