@@ -1,4 +1,4 @@
-import { obtener } from "./http.js";
+import { obtener } from "./peticiones.js";
 
 export function obtenerUniversidades() {
   return obtener("/universidades");

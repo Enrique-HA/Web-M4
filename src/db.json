@@ -1,8 +1,7 @@
-
 {
   "universidades": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Universidad Complutense de Madrid",
       "ciudad": "Madrid",
       "pais": "España",
@@ -10,7 +9,7 @@
       "numeroEstudiantes": 26000
     },
     {
-      "id": 2,
+      "id": "2",
       "nombre": "Universidad de Barcelona",
       "ciudad": "Barcelona",
       "pais": "España",
@@ -18,7 +17,7 @@
       "numeroEstudiantes": 30000
     },
     {
-      "id": 3,
+      "id": "3",
       "nombre": "Universidad de Salamanca",
       "ciudad": "Salamanca",
       "pais": "España",
@@ -28,7 +27,7 @@
   ],
   "facultades": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Facultad de Informática",
       "universidadId": 1,
       "decano": "Carlos Martínez",
@@ -36,7 +35,7 @@
       "presupuesto": 250000
     },
     {
-      "id": 2,
+      "id": "2",
       "nombre": "Facultad de Medicina",
       "universidadId": 2,
       "decano": "Ana López",
@@ -44,7 +43,7 @@
       "presupuesto": 320000
     },
     {
-      "id": 3,
+      "id": "3",
       "nombre": "Facultad de Derecho",
       "universidadId": 3,
       "decano": "Javier Sánchez",
@@ -54,7 +53,7 @@
   ],
   "estudiantes": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Laura",
       "apellidos": "García Pérez",
       "edad": 21,
@@ -62,7 +61,7 @@
       "facultadId": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "nombre": "Pedro",
       "apellidos": "Fernández Ruiz",
       "edad": 23,
@@ -70,12 +69,21 @@
       "facultadId": 2
     },
     {
-      "id": 3,
+      "id": "3",
       "nombre": "Marta",
       "apellidos": "Rodríguez Martín",
       "edad": 20,
       "universidadId": 3,
       "facultadId": 3
+    },
+    {
+      "nombre": "Paco",
+      "apellidos": "Pérez",
+      "edad": 23,
+      "universidadId": 3,
+      "facultadId": 3,
+      "id": "WmkQUllOKd4"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

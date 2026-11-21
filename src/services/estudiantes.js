@@ -1,4 +1,4 @@
-import { obtener, enviar } from "./http.js";
+import { obtener, enviar } from "./peticiones.js";
 
 export function obtenerEstudiantes() {
   return obtener("/estudiantes");

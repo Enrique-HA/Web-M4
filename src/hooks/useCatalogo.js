@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { obtenerUniversidades, obtenerFacultades } from "../services/catalogos.js";
+import { obtenerUniversidades, obtenerFacultades } from "../services/catalogo.js";
 
 export function useUniversidades() {
   return useQuery({
